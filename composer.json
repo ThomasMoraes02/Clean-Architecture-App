@@ -10,7 +10,12 @@
         ]
     },
     "autoload-dev": {
-        "CleanArchitectureApp\\Test\\": "test/"
+        "psr-4": {
+            "CleanArchitectureApp\\Test\\": "test/"
+        },
+        "files": [
+            "config/config.php"
+        ]
     },
     "authors": [
         {
