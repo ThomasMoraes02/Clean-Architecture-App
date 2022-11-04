@@ -1,5 +1,5 @@
 <?php
-namespace CleanArchitectureApp\Test\Domain;
+namespace CleanArchitectureApp\Test\Academic\Domain;
 
 use DomainException;
 use PHPUnit\Framework\TestCase;

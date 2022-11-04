@@ -1,5 +1,5 @@
 <?php 
-namespace CleanArchitectureApp\Test\Infraestructure;
+namespace CleanArchitectureApp\Test\Academic\Infraestructure;
 
 use PHPUnit\Framework\TestCase;
 use CleanArchitectureApp\Academic\Infraestructure\Student\EncoderArgonII;

@@ -1,5 +1,5 @@
 <?php 
-namespace CleanArchitectureApp\Test\Application\Student;
+namespace CleanArchitectureApp\Test\Academic\Application\Student;
 
 use PHPUnit\Framework\TestCase;
 use CleanArchitectureApp\Academic\Domain\Cpf;

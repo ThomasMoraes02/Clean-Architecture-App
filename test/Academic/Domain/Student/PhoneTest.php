@@ -1,5 +1,5 @@
 <?php 
-namespace CleanArchitectureApp\Test\Domain\Student;
+namespace CleanArchitectureApp\Test\Academic\Domain\Student;
 
 use DomainException;
 use InvalidArgumentException;
