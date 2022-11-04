@@ -27,3 +27,5 @@ Os termos Use Case, Application Service e Command Handler são basicamente sinô
 // phpmailer
 
 repositorio de indicacao
+
+Conhecemos o termo Linguagem Ubíqua que consiste em ter uma linguagem onipresente entre a equipe de desenvolvimento e a equipe de negócios.
