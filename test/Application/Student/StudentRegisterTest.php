@@ -4,6 +4,8 @@ namespace CleanArchitectureApp\Test\Application\Student;
 use CleanArchitectureApp\Application\Student\StudentRegister\StudentRegister;
 use CleanArchitectureApp\Application\Student\StudentRegister\StudentRegisterDto;
 use CleanArchitectureApp\Domain\Cpf;
+use CleanArchitectureApp\Domain\PublishEvent;
+use CleanArchitectureApp\Domain\Student\LogStudentRegister;
 use CleanArchitectureApp\Infraestructure\Student\StudentRepositoryMemory;
 use PHPUnit\Framework\TestCase;
 
@@ -14,7 +16,11 @@ class StudentRegisterTest extends TestCase
         $studentRegister = new StudentRegisterDto("123.456.789-09", "Thomas", "thomas@gmail.com");
 
         $studentRepository = new StudentRepositoryMemory;
-        $useCase = new StudentRegister($studentRepository);
+
+        $publisher = new PublishEvent;
+        $publisher->addListener(new LogStudentRegister);
+
+        $useCase = new StudentRegister($studentRepository, $publisher);
         $useCase->execute($studentRegister);
 
         $student = $studentRepository->findByCpf(new Cpf("123.456.789-09"));
