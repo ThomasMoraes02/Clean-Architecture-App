@@ -1,5 +1,5 @@
 <?php 
-namespace CleanArchitectureApp\Test\Domain;
+namespace CleanArchitectureApp\Test\Domain\Student;
 
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
