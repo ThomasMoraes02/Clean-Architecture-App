@@ -1,11 +1,11 @@
 <?php 
 namespace CleanArchitectureApp\Test\Domain\Student;
 
+use DomainException;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use CleanArchitectureApp\Domain\Student\Phone;
-use CleanArchitectureApp\Domain\Student\Student;
-use DomainException;
+use CleanArchitectureApp\Academic\Domain\Student\Phone;
+use CleanArchitectureApp\Academic\Domain\Student\Student;
 
 class PhoneTest extends TestCase
 {

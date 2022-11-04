@@ -1,8 +1,8 @@
 <?php 
 namespace CleanArchitectureApp\Test\Domain\Student;
 
-use CleanArchitectureApp\Domain\Student\Student;
 use PHPUnit\Framework\TestCase;
+use CleanArchitectureApp\Academic\Domain\Student\Student;
 
 class StudentTest extends TestCase
 {

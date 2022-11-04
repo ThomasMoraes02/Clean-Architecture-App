@@ -1,14 +1,13 @@
 <?php 
 namespace CleanArchitectureApp\Test\Application\Student;
 
-use CleanArchitectureApp\Application\Student\StudentRegister\StudentRegister;
-use CleanArchitectureApp\Application\Student\StudentRegister\StudentRegisterDto;
-use CleanArchitectureApp\Domain\Cpf;
-use CleanArchitectureApp\Domain\PublishEvent;
-use CleanArchitectureApp\Domain\Student\LogStudentRegister;
-use CleanArchitectureApp\Infraestructure\Student\StudentRepositoryMemory;
 use PHPUnit\Framework\TestCase;
-
+use CleanArchitectureApp\Academic\Domain\Cpf;
+use CleanArchitectureApp\Academic\Domain\PublishEvent;
+use CleanArchitectureApp\Academic\Domain\Student\LogStudentRegister;
+use CleanArchitectureApp\Academic\Infraestructure\Student\StudentRepositoryMemory;
+use CleanArchitectureApp\Academic\Application\Student\StudentRegister\StudentRegister;
+use CleanArchitectureApp\Academic\Application\Student\StudentRegister\StudentRegisterDto;
 class StudentRegisterTest extends TestCase
 {
     public function test_student_add_in_repository()

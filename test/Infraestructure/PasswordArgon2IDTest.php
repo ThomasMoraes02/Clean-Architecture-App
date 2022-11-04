@@ -1,8 +1,8 @@
 <?php 
 namespace CleanArchitectureApp\Test\Infraestructure;
 
-use CleanArchitectureApp\Infraestructure\Student\EncoderArgonII;
 use PHPUnit\Framework\TestCase;
+use CleanArchitectureApp\Academic\Infraestructure\Student\EncoderArgonII;
 
 class PasswordArgon2IDTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php 
 namespace CleanArchitectureApp\Test\Domain;
 
-use CleanArchitectureApp\Domain\Email;
 use DomainException;
 use PHPUnit\Framework\TestCase;
+use CleanArchitectureApp\Academic\Domain\Email;
 
 class EmailTest extends TestCase
 {
