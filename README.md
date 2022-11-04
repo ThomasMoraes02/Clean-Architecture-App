@@ -20,6 +20,8 @@ Que há Domain, Application e Infrastructure Services:
 - Application Services controlam o fluxo de alguma regra em nossa aplicação
 - Infrastructure Services são implementações de interfaces presentes nas camadas de domínio ou de aplicação
 
+Os termos Use Case, Application Service e Command Handler são basicamente sinônimos e servem para fornecer pontos de entrada na sua aplicação, de forma independente dos mecanismos de entrega (Web, CLI, etc).
+
 // infraestructure
 // mail
 // phpmailer
