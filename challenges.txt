@@ -1,0 +1,5 @@
+- Disponibilizar no composer
+- Criar repositorio de indicacao
+- Criar UseCase de indicacao
+- Criar DTO para adicionar telefone
+- Integrar com o Slim Framework
