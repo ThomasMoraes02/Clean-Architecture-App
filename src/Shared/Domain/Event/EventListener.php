@@ -1,7 +1,7 @@
 <?php 
-namespace CleanArchitectureApp\Academic\Domain;
+namespace CleanArchitectureApp\Shared\Domain\Event;
 
-use CleanArchitectureApp\Academic\Domain\Event;
+use CleanArchitectureApp\Shared\Domain\Event\Event;
 
 abstract class EventListener
 {

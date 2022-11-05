@@ -1,9 +1,9 @@
 <?php
-namespace CleanArchitectureApp\Test\Academic\Domain;
+namespace CleanArchitectureApp\Test\Shared\Domain;
 
 use DomainException;
 use PHPUnit\Framework\TestCase;
-use CleanArchitectureApp\Academic\Domain\Cpf;
+use CleanArchitectureApp\Shared\Domain\Cpf;
 
 class CpfTest extends TestCase
 {

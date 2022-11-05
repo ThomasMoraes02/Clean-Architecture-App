@@ -1,7 +1,7 @@
 <?php 
 namespace CleanArchitectureApp\Score\Domain\Stamp;
 
-use CleanArchitectureApp\Academic\Domain\Cpf;
+use CleanArchitectureApp\Shared\Domain\Cpf;
 use CleanArchitectureApp\Score\Domain\Stamp\Stamp;
 
 

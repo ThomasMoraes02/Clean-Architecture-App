@@ -1,5 +1,5 @@
 <?php 
-namespace CleanArchitectureApp\Academic\Domain;
+namespace CleanArchitectureApp\Shared\Domain;
 
 use DomainException;
 

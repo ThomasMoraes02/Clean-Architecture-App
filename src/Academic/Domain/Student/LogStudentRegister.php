@@ -1,8 +1,8 @@
 <?php 
 namespace CleanArchitectureApp\Academic\Domain\Student;
 
-use CleanArchitectureApp\Academic\Domain\Event;
-use CleanArchitectureApp\Academic\Domain\EventListener;
+use CleanArchitectureApp\Shared\Domain\Event\Event;
+use CleanArchitectureApp\Shared\Domain\Event\EventListener;
 use CleanArchitectureApp\Academic\Domain\Student\StudentRegistered;
 
 class LogStudentRegister extends EventListener

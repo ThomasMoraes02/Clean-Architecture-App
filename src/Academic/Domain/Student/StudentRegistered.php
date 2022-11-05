@@ -2,8 +2,8 @@
 namespace CleanArchitectureApp\Academic\Domain\Student;
 
 use DateTimeImmutable;
-use CleanArchitectureApp\Academic\Domain\Cpf;
-use CleanArchitectureApp\Academic\Domain\Event;
+use CleanArchitectureApp\Shared\Domain\Cpf;
+use CleanArchitectureApp\Shared\Domain\Event\Event;
 
 class StudentRegistered implements Event
 {

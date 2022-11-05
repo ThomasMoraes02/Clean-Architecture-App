@@ -2,7 +2,7 @@
 namespace CleanArchitectureApp\Academic\Domain\Student;
 
 use DomainException;
-use CleanArchitectureApp\Academic\Domain\Cpf;
+use CleanArchitectureApp\Shared\Domain\Cpf;
 use CleanArchitectureApp\Academic\Domain\Email;
 use CleanArchitectureApp\Academic\Domain\Student\Phone;
 

@@ -1,7 +1,7 @@
 <?php 
 namespace CleanArchitectureApp\Academic\Domain\Student;
 
-use CleanArchitectureApp\Academic\Domain\Cpf;
+use CleanArchitectureApp\Shared\Domain\Cpf;
 use CleanArchitectureApp\Academic\Domain\Student\Student;
 
 

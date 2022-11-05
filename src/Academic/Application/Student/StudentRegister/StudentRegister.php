@@ -1,9 +1,9 @@
 <?php 
 namespace CleanArchitectureApp\Academic\Application\Student\StudentRegister;
 
-use CleanArchitectureApp\Academic\Domain\Cpf;
-use CleanArchitectureApp\Academic\Domain\PublishEvent;
+use CleanArchitectureApp\Shared\Domain\Cpf;
 use CleanArchitectureApp\Academic\Domain\Student\Student;
+use CleanArchitectureApp\Shared\Domain\Event\PublishEvent;
 use CleanArchitectureApp\Academic\Domain\Student\StudentRegistered;
 use CleanArchitectureApp\Academic\Domain\Student\StudentRepository;
 use CleanArchitectureApp\Academic\Application\Student\StudentRegister\StudentRegisterDto;
